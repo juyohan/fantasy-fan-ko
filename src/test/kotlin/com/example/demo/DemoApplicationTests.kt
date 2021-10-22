@@ -10,7 +10,6 @@ import org.springframework.test.web.servlet.MockMvc
 class DemoApplicationTests {
 
     @Test
-    fun testDb() {
-
+    fun test() {
     }
 }
