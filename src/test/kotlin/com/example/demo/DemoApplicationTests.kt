@@ -13,7 +13,7 @@ class DemoApplicationTests {
     private lateinit var playerRepository: PlayerRepository
 
     @Test
-    fun `Mock Data를 DB에 저장시키기`() {
+    fun testDb() {
 //        var play = Player(id = null, playerName = "P.Mils", playerPosition = "G", playerFG = .377f)
 //        var play2 = Player(id = null, playerName = "J.Harden")
 //        var playList : MutableList<Player> = mutableListOf(play, play2)
