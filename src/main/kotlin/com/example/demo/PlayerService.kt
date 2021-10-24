@@ -1,8 +1,6 @@
 package com.example.demo
 
 import lombok.AllArgsConstructor
-import lombok.RequiredArgsConstructor
-import org.jsoup.select.Elements
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional
@@ -19,10 +17,8 @@ class PlayerService {
     @Autowired
     private lateinit var playerRepository : PlayerRepository;
 
-    fun getPlayerAll() : List<Player> {
-        val findAll = playerRepository.findAll()
-
-        return findAll
+    fun getPlayerAll(): List<Player> {
+        return playerRepository.findAll()
     }
 
     @Transactional
