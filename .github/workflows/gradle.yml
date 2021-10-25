@@ -52,5 +52,5 @@ jobs:
         aws s3 cp \
         --region ap-northeast-2 \
         --acl private \
-        ./yahoo-fantasy-build.zip s3://yahoo-fantasy/build/
+        ./yahoo-bocket.zip s3://yahoo-bocket/
       
