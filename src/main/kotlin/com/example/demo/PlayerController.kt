@@ -38,7 +38,7 @@ class PlayerController {
             var playerData : String = element.select("td.Ta-end").text()
             if (playerData.length > 1) {
                 val split: List<String> = playerData.split(" ")
-                var player = Player(key = null,
+                var player = Player(id = null,
                     playerName = playerNameElements.text(),
                     playerPosition = splits.elementAt(2),
                     playerFG = split.elementAt(6).toFloat(),

@@ -7,7 +7,7 @@ data class Player(
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "PLAYER_ID")
-    val key: Long?,
+    val id: Long?,
     val playerName: String,
     val playerPosition: String,
     val player3PT: Float,
