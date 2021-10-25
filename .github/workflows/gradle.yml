@@ -23,6 +23,11 @@ jobs:
         distribution: 'adopt'
         cache: gradle
         
+    - name : unset Key
+      run : unset AWS_ACCESS_KEY_ID
+    - name : unset Key1
+      run : unset AWS_SECRET_ACCESS_KEY
+        
       #권한 부여
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
