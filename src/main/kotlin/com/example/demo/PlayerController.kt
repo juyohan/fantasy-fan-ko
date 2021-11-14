@@ -1,6 +1,5 @@
 package com.example.demo
 
-import lombok.AllArgsConstructor
 import org.jsoup.Jsoup
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element

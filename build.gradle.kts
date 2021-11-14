@@ -26,7 +26,8 @@ repositories {
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("org.springframework.boot:spring-boot-starter-web")
-    implementation("mysql:mysql-connector-java")
+//    implementation("mysql:mysql-connector-java")
+    runtimeOnly("com.h2database:h2")
     implementation("org.jsoup:jsoup:1.13.1")
     implementation("org.springframework.boot:spring-boot-starter-jdbc")
 
